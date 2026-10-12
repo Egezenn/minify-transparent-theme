@@ -1,0 +1,94 @@
+:root {
+  color-scheme: dark;
+  --font-sans: system-ui, -apple-system, sans-serif;
+  --font-mono: monospace;
+
+  --bg-primary: rgba(15, 20, 30, 0.2);
+  --bg-secondary: rgba(20, 27, 40, 0.36);
+  --bg-tertiary: rgba(27, 35, 50, 0.5);
+  --text-primary: #f4f7ff;
+  --text-secondary: #c3ccdc;
+  --text-muted: #98a5ba;
+  --border-color: rgba(220, 232, 255, 0.2);
+
+  --accent: #6ee7e0;
+  --accent-text: #092022;
+
+  --btn-bg: rgba(230, 240, 255, 0.12);
+  --btn-text: #f4f7ff;
+  --btn-border: rgba(220, 232, 255, 0.22);
+  --btn-hover-bg: rgba(230, 240, 255, 0.2);
+  --btn-hover-border: rgba(110, 231, 224, 0.7);
+  --btn-active-bg: #6ee7e0;
+  --btn-active-text: #092022;
+
+  --input-bg: rgba(7, 12, 22, 0.42);
+  --input-text: #f4f7ff;
+  --input-border: rgba(220, 232, 255, 0.24);
+
+  --card-bg: rgba(18, 25, 38, 0.32);
+  --card-border: rgba(220, 232, 255, 0.2);
+  --card-footer-bg: rgba(12, 18, 29, 0.56);
+  --card-preview-bg: rgba(7, 12, 22, 0.45);
+
+  --terminal-bg: rgba(7, 10, 17, 0.7);
+  --terminal-text: #e2e9f5;
+  --log-error: #ff8585;
+  --log-warning: #ffd18b;
+
+  --modal-backdrop: rgba(2, 5, 12, 0.64);
+  --modal-bg: rgba(20, 27, 40, 0.94);
+  --modal-border: rgba(220, 232, 255, 0.24);
+
+  --scrollbar-track: rgba(10, 15, 25, 0.28);
+  --scrollbar-thumb: rgba(220, 232, 255, 0.28);
+  --scrollbar-thumb-hover: #6ee7e0;
+}
+
+html {
+  background-color: #101725;
+  background-image: url("glass-wallpaper.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+body,
+.app-container,
+.mod-grid-container,
+.settings-container,
+.d2pfx-container {
+  background: transparent !important;
+}
+
+.header,
+.mod-card,
+.settings-section,
+.settings-toolbar,
+.terminal-container,
+.modal {
+  border-radius: 12px;
+}
+
+.header {
+  margin: 8px 8px 0;
+  border-color: rgba(220, 232, 255, 0.22);
+}
+
+.mod-card,
+.settings-section {
+  border-radius: 10px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.16);
+}
+
+button,
+input,
+select,
+textarea {
+  border-radius: 7px;
+}
+
+.gh-icon {
+  filter: invert(1);
+}
